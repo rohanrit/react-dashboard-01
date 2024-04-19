@@ -1,0 +1,35 @@
+.input + .label,
+.input + .label,
+.input + .label {
+  font-size: 0.75rem;
+  transition: all 0.2s ease-out;
+  top: -0.9rem;
+  background-color: #fff;
+  color: #1a73e8;
+  padding: 0 5px 0 5px;
+  margin: 0 5px 0 5px;
+}
+.label {
+  transition: all 0.2s ease-out;
+  top: 0.4rem;
+  left: 0;
+}
+
+.datadropdown li > ul {
+  transform: translatex(100%) scale(0);
+}
+.datadropdown li:hover > ul {
+  transform: translatex(101%) scale(1);
+}
+.datadropdown li > button svg {
+  transform: rotate(-90deg);
+}
+.datadropdown li:hover > button svg {
+  transform: rotate(-270deg);
+}
+.datadropdown .group:hover .group-hover\:scale-100 {
+  transform: scale(1);
+}
+.datadropdown .group:hover .group-hover\:-rotate-180 {
+  transform: rotate(180deg);
+}
